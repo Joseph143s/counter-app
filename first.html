@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Counter App</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Counter App</h1>
+            <h2 id="count">0</h2>
+            <div class="buttons">
+                <button id="increase">Increase(+1)</button>
+                <button id="decrease">Decrease(-1)</button>
+                <button id="double">Increase(+2)</button>
+                <button id="undo">Undo</button>
+                <button id="reset">Reset</button>
+                <button id="theme">Theme</button>
+            </div>
+            <input type="number" id="stepInput" placeholder="Custom step" />
+            <button id="customAdd">Add Custom Value</button>
+            <h3>History</h3>
+            <ul id="historyList"></ul>
+            <p id="message"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
